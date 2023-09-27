@@ -1,0 +1,72 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_m10_laptops_forms",
+      "Namespace": "Laptops (Forms)",
+      "Values": {
+        "Information": "0711f7bb-5e91-412a-9c01-fcab3ad45958"
+      }
+    },
+    {
+      "Kind": "default.cds_m10_leveranciers_forms",
+      "Namespace": "Leveranciers (Forms)",
+      "Values": {
+        "Information": "82fbd700-6d02-43d7-8f71-982f9bc2e1fe"
+      }
+    },
+    {
+      "Kind": "default.cds_contoso_machineorder_forms",
+      "Namespace": "Machine Orders (Forms)",
+      "Values": {
+        "Information": "31247c63-7065-4d80-b98a-5d59dd8021dd"
+      }
+    },
+    {
+      "Kind": "default.cds_m10_laptopuser_forms",
+      "Namespace": "Laptop users (Forms)",
+      "Values": {
+        "Information": "1b8224d2-fd9b-4b34-a504-aab4f5fbcce8"
+      }
+    },
+    {
+      "Kind": "default.cds_m10_songs_forms",
+      "Namespace": "Songs (Forms)",
+      "Values": {
+        "Information": "1fb23cc1-bd53-4171-b10c-fa255b40f1c9"
+      }
+    },
+    {
+      "Kind": "default.cds_m10_transport_forms",
+      "Namespace": "Transports (Forms)",
+      "Values": {
+        "Information": "7df931d8-aeb6-4d04-ab92-b92d959f1be8"
+      }
+    },
+    {
+      "Kind": "default.cds_account_forms",
+      "Namespace": "Accounts (Forms)",
+      "Values": {
+        "Account": "8448b78f-8f42-454e-8e2a-f8196b0419af",
+        "account card": "b028db32-3619-48a5-ac51-cf3f947b0ef3",
+        "Account Card form": "cccff382-2b92-467e-bf1b-3db179512af8",
+        "Account for Interactive experience": "a72c7955-442b-4ea4-9499-b10cd18b4256",
+        "Account Hierarchy Tile Form": "69cff312-cfb6-4289-9631-249ab85d2c62",
+        "Account Quick Create": "c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b",
+        "Account Reference Panel": "098ae145-1567-41ec-8398-86dbaac70c9b",
+        "Information": "b053a39a-041a-4356-acef-ddf00182762b",
+        "Social Profiles": "2205c86d-ed88-4a2f-a447-3b86a8781f2e"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    }
+  ]
+}

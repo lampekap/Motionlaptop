@@ -1,0 +1,107 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "m10_laptopses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "m10_laptops",
+    "Name": "Laptops",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "m10_afbeelding": "Afbeelding",
+      "m10_afbeeldingid": "m10_afbeeldingId",
+      "m10_geheugen": "Geheugen",
+      "m10_laptops_AsyncOperations": "System Jobs",
+      "m10_laptops_BulkDeleteFailures": "Bulk Delete Failures",
+      "m10_laptops_DuplicateBaseRecord": "Duplicate Records (m10_laptops_DuplicateBaseRecord)",
+      "m10_laptops_DuplicateMatchingRecord": "Duplicate Records (m10_laptops_DuplicateMatchingRecord)",
+      "m10_laptops_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "m10_laptops_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "m10_laptops_ProcessSession": "Process Sessions",
+      "m10_laptops_SyncErrors": "Sync Errors",
+      "m10_laptopsid": "Laptops",
+      "m10_linknaaraccessoire": "Link naar accessoire",
+      "m10_name": "Naam laptop",
+      "m10_prijs": "Prijs",
+      "m10_prijs_base": "Prijs (Base)",
+      "m10_processor": "Processor",
+      "m10_ramgeheugen": "Ram geheugen",
+      "m10_videokaart": "Videokaart",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Laptops",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Laptops (Views)",
+    "Name": "_m10_laptops_views",
+    "RelatedEntityName": "Laptops",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "25838fc7-840e-4cf2-9068-dcbb2571ef6e": "Laptops Associated View",
+      "2785160b-9a55-4e84-b179-4920dc098a9f": "Laptops Lookup View",
+      "5bc57bf1-1a98-4c0e-b3f4-58e51bd9fae5": "Active Laptops",
+      "7bb645b3-737f-41c6-9ba1-dcc89da5303c": "Laptops Advanced Find View",
+      "ca31551c-ce1e-4188-8c4f-f161606f3942": "Inactive Laptops"
+    }
+  },
+  {
+    "DisplayName": "Status (Laptops)",
+    "Name": "m10_laptops_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Laptops"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Laptops",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Laptops)",
+    "Name": "m10_laptops_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Laptops"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Laptops",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "m10_leverancierses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "m10_leveranciers",
+    "Name": "Leveranciers",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "m10_complianceassetid": "Compliance Asset Id",
+      "m10_created": "Created",
+      "m10_externalprimarykey": "ID",
+      "m10_leveranciersid": "Leveranciers",
+      "m10_modified": "Modified",
+      "m10_odatacolortag": "Color Tag",
+      "m10_omschrijving": "Omschrijving",
+      "m10_title": "Title"
+    },
+    "PreferredName": "Leveranciers",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Leveranciers (Views)",
+    "Name": "_m10_leveranciers_views",
+    "RelatedEntityName": "Leveranciers",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "58810aad-ce91-461d-88fa-c5a23b2a80a6": "Leveranciers Advanced Find View",
+      "6dd070b7-3d5e-405e-8a8c-05a2537eea10": "Leveranciers Associated View",
+      "a7cc677d-469f-4ad0-9cef-c0cc0dbd15f2": "All Leveranciers",
+      "c50957c6-7cbd-4954-aef6-0b34e7af0408": "Leveranciers Lookup View"
+    }
+  }
+]

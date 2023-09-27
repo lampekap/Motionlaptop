@@ -1,0 +1,38 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "m10_songses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "m10_songs",
+    "Name": "Songs",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "m10_artist": "Artist",
+      "m10_complianceassetid": "Activum-id voor compliance",
+      "m10_created": "Gemaakt",
+      "m10_externalprimarykey": "Id",
+      "m10_modified": "Gewijzigd",
+      "m10_odatacolortag": "Kleurlabel",
+      "m10_position": "Position",
+      "m10_songsid": "Songs",
+      "m10_title": "Titel",
+      "m10_year": "Year"
+    },
+    "PreferredName": "Songs",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Songs (Views)",
+    "Name": "_m10_songs_views",
+    "RelatedEntityName": "Songs",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "33b34516-a77d-4e41-a570-6c0351cb0909": "Songs Associated View",
+      "4b8f44e6-fe7c-4861-ad7d-0a8881296e3b": "All Songs",
+      "6aea1c4a-3dda-4153-9297-f12f296d8464": "Songs Advanced Find View",
+      "846984e8-cc3c-44dd-b51f-8c6a0f3ce70d": "Songs Lookup View"
+    }
+  }
+]

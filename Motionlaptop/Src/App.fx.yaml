@@ -1,0 +1,26 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |
+        =Set(
+            var_AppColors,
+            {
+                ColorWhite: ColorValue("#ffffff"),
+                ColorBlack: ColorValue("#000000"),
+                ColorLylia: ColorValue("#918cc8"),
+                ColorPurple: ColorValue("#642d91"),
+                ColorMagenta: ColorValue("#eb0087"),
+                ColorBlue: ColorValue("#46c8f5"),
+                ColorGreen: ColorValue("#beb432"),
+                ColorLightgrey: ColorValue("#f7f7fb")
+        
+            }
+        );
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

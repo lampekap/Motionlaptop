@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "m10_laptopusers",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "m10_laptopuser",
+    "Name": "Laptop users",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "m10_budget": "Budget",
+      "m10_budget_base": "Budget (Base)",
+      "m10_budgeteinddatum": "Budget eind datum",
+      "m10_budgetstart": "Budget start",
+      "m10_laptopuser_AsyncOperations": "System Jobs",
+      "m10_laptopuser_BulkDeleteFailures": "Bulk Delete Failures",
+      "m10_laptopuser_DuplicateBaseRecord": "Duplicate Records (m10_laptopuser_DuplicateBaseRecord)",
+      "m10_laptopuser_DuplicateMatchingRecord": "Duplicate Records (m10_laptopuser_DuplicateMatchingRecord)",
+      "m10_laptopuser_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "m10_laptopuser_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "m10_laptopuser_ProcessSession": "Process Sessions",
+      "m10_laptopuser_SyncErrors": "Sync Errors",
+      "m10_laptopuserid": "Laptop user",
+      "m10_name": "Name",
+      "m10_user": "User",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Laptop users",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Laptop users (Views)",
+    "Name": "_m10_laptopuser_views",
+    "RelatedEntityName": "Laptop users",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "72f58f4a-498d-42fc-bd28-48d0aab20366": "Laptop user Associated View",
+      "9a7907e0-9bba-4231-bbea-4a0009fb7830": "Active Laptop users",
+      "cb336131-8db5-4bc9-a452-20b66dba0bff": "Laptop user Advanced Find View",
+      "e497da3f-f444-4164-9aa6-4675981d4250": "Inactive Laptop users",
+      "fcf70793-de07-41ec-af62-3af537d38466": "Laptop user Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Laptop users)",
+    "Name": "m10_laptopuser_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Laptop users"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Laptop users",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Laptop users)",
+    "Name": "m10_laptopuser_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Laptop users"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Laptop users",
+    "Type": "OptionSetInfo"
+  }
+]
